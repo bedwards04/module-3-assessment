@@ -1,0 +1,14 @@
+How does the internet work? What happens when you click on a link?
+
+The internet and how it works is made up of clients (your machine), servers, IP addresses, ISPs (internet service providers), and routers.
+Each website has its own IP address, so when you go to a website using a DNS (website nickname) like facebook.com, you're actually sending a request to a server 
+that is connected to the internet that will allow you to access that site if the IP address can be found.
+
+So whenever you try to get on a website, or send an email, the request travels in packets which are small chunks of data. These packets travel from the client (your computer)
+to a router, through an ISP, to the internet, and then to a server which then sends a response back to your computer in packets. 
+The response will then be the website you requested to visit being loaded on your computer.
+
+And that's essentially what happens when you click on a link as well. A request is sent to a server when you click on the link, and then a response is given in return. 
+
+The reason requests and reponses are sent back and forth in packets is so that different pieces of data can take different routes, so that way the request is received and the response is given faster 
+than if they weren't sent in packets.
